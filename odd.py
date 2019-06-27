@@ -1,4 +1,4 @@
-l,h=[int(x) for x in input().split()]
-for i in range(l+1,h+1):
+st,en=[int(x) for x in input().split()]
+for i in range(st+1,en+1):
  if(i%2!=0):
-  print(i,h=" ")
+  print(i,en=" ")
